@@ -1,0 +1,43 @@
+programa
+
+  numero a, b;
+  texto  t1;
+  inteiro c;
+  numero n;
+
+  leia(a);
+  leia(b);
+  leia(c);
+  
+  a = 1 + 2 * 3 / b;
+  
+  t1 = "texto";
+  a = 15;
+  a = 15.75;
+  c = 3;
+
+  
+  escreva("IMPRIME TEXTO");
+  
+  faça {
+  	escreva(a);
+  	c = c - 1;
+  } enquanto (c>0);
+
+  se ( a > b ) {
+     escreva (a);
+  }
+  senao {
+     escreva (b);
+  }
+  
+  
+  enquanto(b>5) {
+     escreva (c);
+  }
+  
+
+  
+  
+
+fimprog;
